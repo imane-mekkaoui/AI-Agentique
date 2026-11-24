@@ -1,11 +1,9 @@
 # lab_pytorch_v1
 
-Lab PyTorch (vidéo Youssfi, Part 1).
+Lab PyTorch — **séance du 12 octobre 2026**.  
+Dépôt : [imane-mekkaoui/AI-Agentique](https://github.com/imane-mekkaoui/AI-Agentique).
 
-**Dépôt GitHub :** [imane-mekkaoui/AI-Agentique](https://github.com/imane-mekkaoui/AI-Agentique)  
-**Date de création du dépôt :** 24 novembre 2026
-
-Le dossier `.venv` n’est **pas** versionné. Après un clone : `uv sync`.
+Le dossier `.venv` n’est **pas** versionné : après un clone, lancer `uv sync`.
 
 ## Fichiers
 

@@ -2,9 +2,9 @@
 
 **Cours :** Part 1 — Neural Network Fundamentals with PyTorch For Generative AI  
 **Enseignant :** Prof. Mohamed Youssfi  
-**Dossier :** `tps/lab_pytorch_v1`  
-**Dépôt GitHub :** https://github.com/imane-mekkaoui/AI-Agentique  
-**Date de création du dépôt :** 24 novembre 2026
+**Séance :** 12 octobre 2026  
+**Dépôt :** https://github.com/imane-mekkaoui/AI-Agentique  
+**Dossier :** `tps/lab_pytorch_v1`
 
 ## Objectif
 
