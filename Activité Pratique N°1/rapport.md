@@ -4,7 +4,7 @@
 **Enseignant :** Prof. Mohamed Youssfi  
 **Séance :** 12 octobre 2026  
 **Dépôt :** https://github.com/imane-mekkaoui/AI-Agentique  
-**Dossier :** `tps/lab_pytorch_v1`
+**Dossier :** `Activité Pratique N°1`
 
 ## Objectif
 

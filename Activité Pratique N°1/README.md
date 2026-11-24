@@ -17,12 +17,12 @@ Le dossier `.venv` n’est **pas** versionné : après un clone, lancer `uv sync
 
 Python **3.11**, géré avec [uv](https://docs.astral.sh/uv/). Le virtualenv est **dans ce dossier** :
 
-`tps/lab_pytorch_v1/.venv`
+`Activité Pratique N°1/.venv`
 
 Commandes (déjà faites si `.venv` et `uv.lock` sont présents) :
 
 ```powershell
-cd tps\lab_pytorch_v1
+cd "Activité Pratique N°1"
 uv init --python 3.11
 uv venv
 uv add ipykernel torch numpy matplotlib torchmetrics
@@ -31,7 +31,7 @@ uv add ipykernel torch numpy matplotlib torchmetrics
 Pour réinstaller les dépendances :
 
 ```powershell
-cd tps\lab_pytorch_v1
+cd "Activité Pratique N°1"
 uv sync
 ```
 
@@ -41,7 +41,7 @@ Dans Cursor / VS Code : **Select Kernel** → **Select Another Kernel…** → *
 
 Sinon, chemin direct :
 
-`C:\Users\dell\Documents\projet_AIGenerative\tps\lab_pytorch_v1\.venv\Scripts\python.exe`
+`C:\Users\dell\Documents\projet_AIGenerative\tps\Activité Pratique N°1\.venv\Scripts\python.exe`
 
 Ne pas utiliser Anaconda (`base`, `data_analyst`) ni le Python global.
 
