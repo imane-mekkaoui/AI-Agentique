@@ -1,0 +1,13 @@
+[project]
+name = "lab-mnist-v1"
+version = "0.1.0"
+description = "Activité pratique N°2 — modèles génératifs MNIST (classifieur, auto-encodeur, VAE)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "torcheval>=0.0.7",
+    "torch>=2.15.0",
+    "torchvision>=0.24.0",
+]
