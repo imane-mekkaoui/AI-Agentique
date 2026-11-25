@@ -1,0 +1,70 @@
+{
+  "name": "AP5 Agent MCP streamable-http",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "ap5-mcp",
+        "responseMode": "lastNode"
+      },
+      "id": "webhook-ap5",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.body.question || $json.question }}",
+        "options": {}
+      },
+      "id": "agent-ap5",
+      "name": "AI Agent",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.7,
+      "position": [500, 300]
+    },
+    {
+      "parameters": {
+        "model": "qwen2.5:3b",
+        "options": {
+          "baseUrl": "http://host.docker.internal:11434"
+        }
+      },
+      "id": "ollama-ap5",
+      "name": "Ollama Chat Model",
+      "type": "@n8n/n8n-nodes-langchain.lmChatOllama",
+      "typeVersion": 1,
+      "position": [500, 520]
+    },
+    {
+      "parameters": {
+        "endpointUrl": "http://host.docker.internal:8765/mcp",
+        "serverTransport": "httpStreamable"
+      },
+      "id": "mcp-ap5",
+      "name": "MCP Client",
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [720, 520]
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [[{"node": "AI Agent", "type": "main", "index": 0}]]
+    },
+    "Ollama Chat Model": {
+      "ai_languageModel": [[{"node": "AI Agent", "type": "ai_languageModel", "index": 0}]]
+    },
+    "MCP Client": {
+      "ai_tool": [[{"node": "AI Agent", "type": "ai_tool", "index": 0}]]
+    }
+  },
+  "active": false,
+  "settings": { "executionOrder": "v1" },
+  "meta": {
+    "templateCredsSetupCompleted": false,
+    "description": "Agent N8N qui appelle le serveur MCP AP5 (additionner, multiplier) en streamable-http. Démarrer d'abord : uv run python -m ap5.mcp_demo"
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "img_px200_01",
+    "modele": "PX-200",
+    "legende": "Pictogramme papier froissé + voyant orange clignotant : bourrage papier bac 1.",
+    "action": "Ouvrir le capot avant, retirer la feuille coincée, refermer jusqu’au clic."
+  },
+  {
+    "id": "img_px200_02",
+    "modele": "PX-200",
+    "legende": "Pictogramme cartouche : niveau toner bas.",
+    "action": "Remplacer la cartouche TN-PX200."
+  }
+]

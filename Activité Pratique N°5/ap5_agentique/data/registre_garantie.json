@@ -1,0 +1,16 @@
+{
+  "PX200-0042": {
+    "modele": "PX-200",
+    "client": "SARL Dupont",
+    "date_achat": "2025-03-01",
+    "duree_mois": 24,
+    "fin_garantie": "2027-03-01"
+  },
+  "PX200-0001": {
+    "modele": "PX-200",
+    "client": "M. Martin",
+    "date_achat": "2022-01-10",
+    "duree_mois": 24,
+    "fin_garantie": "2024-01-10"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "bases": "./src/ap5/langgraph_bases.py:graphe",
+    "agentic_rag": "./src/ap5/agentic_rag.py:graphe",
+    "sav": "./src/ap5/orchestrateur.py:graphe"
+  },
+  "env": ".env"
+}
