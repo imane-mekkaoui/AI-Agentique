@@ -1,0 +1,78 @@
+# Catalogue des PDF présents dans data/corpus/
+documents:
+  - document_id: GF-NK-IEC-001
+    title: Grundfos NK IEC Range 2 — installation and operating instructions
+    version: "11-2025"
+    equipment_family: pompes
+    access_level: public
+    filename: 92699989_11_2025_NK___IEC__Range_2__IO_GB_online.pdf
+
+  - document_id: GF-NBS-001
+    title: Grundfos NBS — safety and operating instructions
+    version: "03-2023"
+    equipment_family: pompes
+    access_level: public
+    filename: 92940501_03.2023_NBS_IOS_US, CA, MX_Online.pdf
+
+  - document_id: GF-UNILIFT-001
+    title: Grundfos Unilift AP12 / AP35 / AP50 — installation and operating instructions
+    version: "05-2024"
+    equipment_family: pompes
+    access_level: public
+    filename: 96428009_05_2024_UNILIFT_AP__APB_and_APG__IO_IT_online.pdf
+
+  - document_id: GF-MTH-001
+    title: Grundfos MTH — installation and operating instructions
+    version: "01-2026"
+    equipment_family: pompes
+    access_level: technicien
+    filename: 96440790_01_2026_MTH_IO_US_online.pdf
+
+  - document_id: GF-NK-NKG-001
+    title: Grundfos NK / NKG — installation and operating instructions
+    version: "11-2025"
+    equipment_family: pompes
+    access_level: public
+    filename: 96646512_11_2025_NK__NKG_PUBTYPE_GB_online.pdf
+
+  - document_id: GF-NS-PF-001
+    title: Grundfos NS / PF — installation and operating instructions
+    version: "01-2019"
+    equipment_family: pompes
+    access_level: public
+    filename: 99057323_0119_NS_PF_IO_Internet.pdf
+
+  - document_id: GF-CRANES-001
+    title: Grundfos cranes for SMD, SMG, SFG, SRG, AMD, AMG, AFG and SRP
+    version: "09-2026"
+    equipment_family: pompes
+    access_level: technicien
+    filename: 99252703_09_2026_Cranes_for_SMD__SMG__SFG__SRG__AMD__AMG__AFG_and_SRP_IOS_en-GB_online.pdf
+
+  - document_id: GF-MTD-001
+    title: Grundfos MTD with integrated motor — installation and operating instructions
+    version: "03-2026"
+    equipment_family: pompes
+    access_level: technicien
+    filename: 99254983_03_2026_MTD_with_integrated_motor_IO_en-GB_online.pdf
+
+  - document_id: DF-VLT-DG-001
+    title: Danfoss VLT AutomationDrive FC 302 315–1200 kW — design guide
+    version: "000401"
+    equipment_family: variateurs
+    access_level: superviseur
+    filename: AJ361178838261en-000401.pdf
+
+  - document_id: DF-VLT-OG-001
+    title: Danfoss VLT AutomationDrive FC 302 90–710 kW enclosed drives — operating guide
+    version: "000402"
+    equipment_family: variateurs
+    access_level: public
+    filename: AQ262139143212en-000402.pdf
+
+  - document_id: DF-VLT-OG-002
+    title: Danfoss VLT AutomationDrive FC 301/FC 302 0.25–75 kW — operating guide
+    version: "000101"
+    equipment_family: variateurs
+    access_level: public
+    filename: AQ267037727118en-000101.pdf

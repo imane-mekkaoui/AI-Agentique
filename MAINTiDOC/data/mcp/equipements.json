@@ -1,0 +1,24 @@
+{
+  "VLT-FC302-01": {
+    "modele": "Danfoss VLT FC 302",
+    "site": "Atelier A",
+    "historique": [
+      {"date": "2026-09-12", "type": "intervention", "texte": "Remplacement ventilateur armoire D10h."},
+      {"date": "2026-11-02", "type": "alarme", "texte": "Avertissement thermique, reset local."}
+    ]
+  },
+  "GF-NK-01": {
+    "modele": "Grundfos NK",
+    "site": "Station pompage 2",
+    "historique": [
+      {"date": "2026-10-20", "type": "intervention", "texte": "Contrôle alignement accouplement."}
+    ]
+  },
+  "SD-100": {
+    "modele": "Sécheur SD-100",
+    "site": "Local technique",
+    "historique": [
+      {"date": "2026-08-01", "type": "controle", "texte": "Pression 7,5 bar, OK."}
+    ]
+  }
+}
